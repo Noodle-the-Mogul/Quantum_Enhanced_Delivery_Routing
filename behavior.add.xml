@@ -1,0 +1,9 @@
+<additional>
+  <!-- To simulate indian traffic n chaos -->
+  <vTypeDistribution id="indian_drivers">
+    <vType id="normal" vClass="passenger" probability="0.6"/>
+    <vType id="aggressive" vClass="passenger" probability="0.4" 
+           jmIgnoreFoeProb="0.4" jmDriveAfterRedTime="1.0"/>
+  </vTypeDistribution>
+
+</additional>
