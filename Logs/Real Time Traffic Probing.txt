@@ -1,0 +1,6 @@
+For probing traffic across 200 points it takes : 
+200 x 200 = 40000 probes 
+
+But by clustering 10 points into 20 clusters : 
+10 x 20 [for a cluster] + 20 x 20 [inter cluster] = 2400 probes
+

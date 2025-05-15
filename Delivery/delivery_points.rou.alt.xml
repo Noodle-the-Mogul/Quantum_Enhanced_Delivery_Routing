@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-21 04:59:13 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="faridabad.net.xml"/>
+        <additional-files value="vehicles.add.xml"/>
+        <route-files value="Delivery/delivery_points.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="Delivery/delivery_points.rou.xml"/>
+    </output>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="delivery" length="5.00" minGap="1.50" maxSpeed="25.00" vClass="delivery" guiShape="delivery" color="red" accel="1.2" decel="4.5" sigma="0.5"/>
+    <vehicle id="delivery1" type="delivery" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="9.42" probability="1.00000000" edges="1250238604#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery2" type="delivery" depart="1.00">
+        <routeDistribution last="0">
+            <route cost="1.70" probability="1.00000000" edges="1069175684#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery3" type="delivery" depart="2.00">
+        <routeDistribution last="0">
+            <route cost="0.54" probability="1.00000000" edges="423069929#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery4" type="delivery" depart="3.00">
+        <routeDistribution last="0">
+            <route cost="2.33" probability="1.00000000" edges="1068453640#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery5" type="delivery" depart="4.00">
+        <routeDistribution last="0">
+            <route cost="6.02" probability="1.00000000" edges="172498097"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery6" type="delivery" depart="5.00">
+        <routeDistribution last="0">
+            <route cost="0.82" probability="1.00000000" edges="1076564306#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery7" type="delivery" depart="6.00">
+        <routeDistribution last="0">
+            <route cost="12.92" probability="1.00000000" edges="1069840061#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery8" type="delivery" depart="7.00">
+        <routeDistribution last="0">
+            <route cost="12.02" probability="1.00000000" edges="172671774#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery9" type="delivery" depart="8.00">
+        <routeDistribution last="0">
+            <route cost="14.18" probability="1.00000000" edges="-1069868748"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery10" type="delivery" depart="9.00">
+        <routeDistribution last="0">
+            <route cost="0.45" probability="1.00000000" edges="172573270#28"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery11" type="delivery" depart="10.00">
+        <routeDistribution last="0">
+            <route cost="5.55" probability="1.00000000" edges="1193701478"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery12" type="delivery" depart="11.00">
+        <routeDistribution last="0">
+            <route cost="1.04" probability="1.00000000" edges="-421435477#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery13" type="delivery" depart="12.00">
+        <routeDistribution last="0">
+            <route cost="3.70" probability="1.00000000" edges="-172320305#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery14" type="delivery" depart="13.00">
+        <routeDistribution last="0">
+            <route cost="6.44" probability="1.00000000" edges="1069838369"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery15" type="delivery" depart="14.00">
+        <routeDistribution last="0">
+            <route cost="5.36" probability="1.00000000" edges="-422134501#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery16" type="delivery" depart="15.00">
+        <routeDistribution last="0">
+            <route cost="18.74" probability="1.00000000" edges="-172512007#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery17" type="delivery" depart="16.00">
+        <routeDistribution last="0">
+            <route cost="1.48" probability="1.00000000" edges="-358626950#20"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery18" type="delivery" depart="17.00">
+        <routeDistribution last="0">
+            <route cost="3.27" probability="1.00000000" edges="-1072209368"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery19" type="delivery" depart="18.00">
+        <routeDistribution last="0">
+            <route cost="1.44" probability="1.00000000" edges="-172405635#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery20" type="delivery" depart="19.00">
+        <routeDistribution last="0">
+            <route cost="4.97" probability="1.00000000" edges="421262937#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery21" type="delivery" depart="20.00">
+        <routeDistribution last="0">
+            <route cost="7.41" probability="1.00000000" edges="172671822#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery22" type="delivery" depart="21.00">
+        <routeDistribution last="0">
+            <route cost="4.19" probability="1.00000000" edges="-423115888#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery23" type="delivery" depart="22.00">
+        <routeDistribution last="0">
+            <route cost="5.31" probability="1.00000000" edges="1069471946"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery24" type="delivery" depart="23.00">
+        <routeDistribution last="0">
+            <route cost="2.46" probability="1.00000000" edges="358617187#11"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery25" type="delivery" depart="24.00">
+        <routeDistribution last="0">
+            <route cost="6.94" probability="1.00000000" edges="1107635400#13"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery26" type="delivery" depart="25.00">
+        <routeDistribution last="0">
+            <route cost="6.09" probability="1.00000000" edges="-1049236648"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery27" type="delivery" depart="26.00">
+        <routeDistribution last="0">
+            <route cost="10.55" probability="1.00000000" edges="-1069589246#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery28" type="delivery" depart="27.00">
+        <routeDistribution last="0">
+            <route cost="6.68" probability="1.00000000" edges="-1241924076"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery29" type="delivery" depart="28.00">
+        <routeDistribution last="0">
+            <route cost="2.55" probability="1.00000000" edges="-1069577777#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery30" type="delivery" depart="29.00">
+        <routeDistribution last="0">
+            <route cost="2.42" probability="1.00000000" edges="-1046138350#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery31" type="delivery" depart="30.00">
+        <routeDistribution last="0">
+            <route cost="2.57" probability="1.00000000" edges="-172387762#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery32" type="delivery" depart="31.00">
+        <routeDistribution last="0">
+            <route cost="2.98" probability="1.00000000" edges="172544807#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery33" type="delivery" depart="32.00">
+        <routeDistribution last="0">
+            <route cost="7.15" probability="1.00000000" edges="-143948765#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery34" type="delivery" depart="33.00">
+        <routeDistribution last="0">
+            <route cost="9.91" probability="1.00000000" edges="172492362#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery35" type="delivery" depart="34.00">
+        <routeDistribution last="0">
+            <route cost="10.31" probability="1.00000000" edges="1069141909"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery36" type="delivery" depart="35.00">
+        <routeDistribution last="0">
+            <route cost="1.07" probability="1.00000000" edges="1070274192#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery37" type="delivery" depart="36.00">
+        <routeDistribution last="0">
+            <route cost="7.46" probability="1.00000000" edges="-1075249038#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery38" type="delivery" depart="37.00">
+        <routeDistribution last="0">
+            <route cost="0.19" probability="1.00000000" edges="1069506316#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery39" type="delivery" depart="38.00">
+        <routeDistribution last="0">
+            <route cost="3.80" probability="1.00000000" edges="-422771376"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery40" type="delivery" depart="39.00">
+        <routeDistribution last="0">
+            <route cost="8.28" probability="1.00000000" edges="422013375#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery41" type="delivery" depart="40.00">
+        <routeDistribution last="0">
+            <route cost="3.09" probability="1.00000000" edges="188600284#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery42" type="delivery" depart="41.00">
+        <routeDistribution last="0">
+            <route cost="0.75" probability="1.00000000" edges="-172714182#18"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery43" type="delivery" depart="42.00">
+        <routeDistribution last="0">
+            <route cost="1.96" probability="1.00000000" edges="1075054058#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery44" type="delivery" depart="43.00">
+        <routeDistribution last="0">
+            <route cost="5.72" probability="1.00000000" edges="421985955"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery45" type="delivery" depart="44.00">
+        <routeDistribution last="0">
+            <route cost="1.36" probability="1.00000000" edges="423069926#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery46" type="delivery" depart="45.00">
+        <routeDistribution last="0">
+            <route cost="42.33" probability="1.00000000" edges="1067130509"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery47" type="delivery" depart="46.00">
+        <routeDistribution last="0">
+            <route cost="1.97" probability="1.00000000" edges="172344563#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery48" type="delivery" depart="47.00">
+        <routeDistribution last="0">
+            <route cost="1.57" probability="1.00000000" edges="421990767#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery49" type="delivery" depart="48.00">
+        <routeDistribution last="0">
+            <route cost="1.25" probability="1.00000000" edges="-172544915#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery50" type="delivery" depart="49.00">
+        <routeDistribution last="0">
+            <route cost="0.27" probability="1.00000000" edges="-1069506312#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery51" type="delivery" depart="50.00">
+        <routeDistribution last="0">
+            <route cost="6.77" probability="1.00000000" edges="1069476510"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery52" type="delivery" depart="51.00">
+        <routeDistribution last="0">
+            <route cost="0.74" probability="1.00000000" edges="-421982689#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery53" type="delivery" depart="52.00">
+        <routeDistribution last="0">
+            <route cost="0.50" probability="1.00000000" edges="-610665204#22"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery54" type="delivery" depart="53.00">
+        <routeDistribution last="0">
+            <route cost="3.63" probability="1.00000000" edges="705443881#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery55" type="delivery" depart="54.00">
+        <routeDistribution last="0">
+            <route cost="5.22" probability="1.00000000" edges="-188605030#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery56" type="delivery" depart="55.00">
+        <routeDistribution last="0">
+            <route cost="3.87" probability="1.00000000" edges="172671655"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery57" type="delivery" depart="56.00">
+        <routeDistribution last="0">
+            <route cost="8.46" probability="1.00000000" edges="1069506695"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery58" type="delivery" depart="57.00">
+        <routeDistribution last="0">
+            <route cost="0.62" probability="1.00000000" edges="-1069867754#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery59" type="delivery" depart="58.00">
+        <routeDistribution last="0">
+            <route cost="14.03" probability="1.00000000" edges="1295220267"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery60" type="delivery" depart="59.00">
+        <routeDistribution last="0">
+            <route cost="6.69" probability="1.00000000" edges="-1241875639"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery61" type="delivery" depart="60.00">
+        <routeDistribution last="0">
+            <route cost="6.14" probability="1.00000000" edges="358614347#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery62" type="delivery" depart="61.00">
+        <routeDistribution last="0">
+            <route cost="4.61" probability="1.00000000" edges="443224532#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery63" type="delivery" depart="62.00">
+        <routeDistribution last="0">
+            <route cost="5.08" probability="1.00000000" edges="1068431581#14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery64" type="delivery" depart="63.00">
+        <routeDistribution last="0">
+            <route cost="10.93" probability="1.00000000" edges="-172511977#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery65" type="delivery" depart="64.00">
+        <routeDistribution last="0">
+            <route cost="11.57" probability="1.00000000" edges="-421435472"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery66" type="delivery" depart="65.00">
+        <routeDistribution last="0">
+            <route cost="2.48" probability="1.00000000" edges="-421799060#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery67" type="delivery" depart="66.00">
+        <routeDistribution last="0">
+            <route cost="3.57" probability="1.00000000" edges="-172507687#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery68" type="delivery" depart="67.00">
+        <routeDistribution last="0">
+            <route cost="15.61" probability="1.00000000" edges="1075324121#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery69" type="delivery" depart="68.00">
+        <routeDistribution last="0">
+            <route cost="9.09" probability="1.00000000" edges="1073880466#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery70" type="delivery" depart="69.00">
+        <routeDistribution last="0">
+            <route cost="12.12" probability="1.00000000" edges="1071877829"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery71" type="delivery" depart="70.00">
+        <routeDistribution last="0">
+            <route cost="1.13" probability="1.00000000" edges="560529322#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery72" type="delivery" depart="71.00">
+        <routeDistribution last="0">
+            <route cost="0.87" probability="1.00000000" edges="-1069821782#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery73" type="delivery" depart="72.00">
+        <routeDistribution last="0">
+            <route cost="35.67" probability="1.00000000" edges="-1067781261"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery74" type="delivery" depart="73.00">
+        <routeDistribution last="0">
+            <route cost="2.56" probability="1.00000000" edges="-1214257019#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery75" type="delivery" depart="74.00">
+        <routeDistribution last="0">
+            <route cost="4.62" probability="1.00000000" edges="1069868734"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery76" type="delivery" depart="75.00">
+        <routeDistribution last="0">
+            <route cost="6.11" probability="1.00000000" edges="1066052239#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery77" type="delivery" depart="76.00">
+        <routeDistribution last="0">
+            <route cost="2.85" probability="1.00000000" edges="1075360503"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery78" type="delivery" depart="77.00">
+        <routeDistribution last="0">
+            <route cost="1.96" probability="1.00000000" edges="-1074443483#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery79" type="delivery" depart="78.00">
+        <routeDistribution last="0">
+            <route cost="3.00" probability="1.00000000" edges="-1069178778"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery80" type="delivery" depart="79.00">
+        <routeDistribution last="0">
+            <route cost="18.26" probability="1.00000000" edges="-1069175842#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery81" type="delivery" depart="80.00">
+        <routeDistribution last="0">
+            <route cost="22.33" probability="1.00000000" edges="1067127868#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery82" type="delivery" depart="81.00">
+        <routeDistribution last="0">
+            <route cost="4.16" probability="1.00000000" edges="1240684156#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery83" type="delivery" depart="82.00">
+        <routeDistribution last="0">
+            <route cost="7.70" probability="1.00000000" edges="-1069150699"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery84" type="delivery" depart="83.00">
+        <routeDistribution last="0">
+            <route cost="21.52" probability="1.00000000" edges="-172574043"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery85" type="delivery" depart="84.00">
+        <routeDistribution last="0">
+            <route cost="11.88" probability="1.00000000" edges="1187232893"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery86" type="delivery" depart="85.00">
+        <routeDistribution last="0">
+            <route cost="0.84" probability="1.00000000" edges="172573301#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery87" type="delivery" depart="86.00">
+        <routeDistribution last="0">
+            <route cost="3.65" probability="1.00000000" edges="423281395#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery88" type="delivery" depart="87.00">
+        <routeDistribution last="0">
+            <route cost="2.64" probability="1.00000000" edges="188603108#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery89" type="delivery" depart="88.00">
+        <routeDistribution last="0">
+            <route cost="1.51" probability="1.00000000" edges="1069233621#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery90" type="delivery" depart="89.00">
+        <routeDistribution last="0">
+            <route cost="3.22" probability="1.00000000" edges="172573457"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery91" type="delivery" depart="90.00">
+        <routeDistribution last="0">
+            <route cost="2.61" probability="1.00000000" edges="-372578921#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery92" type="delivery" depart="91.00">
+        <routeDistribution last="0">
+            <route cost="1.77" probability="1.00000000" edges="1070276752#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery93" type="delivery" depart="92.00">
+        <routeDistribution last="0">
+            <route cost="0.57" probability="1.00000000" edges="-1069205948#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery94" type="delivery" depart="93.00">
+        <routeDistribution last="0">
+            <route cost="4.66" probability="1.00000000" edges="-1072191791"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery95" type="delivery" depart="94.00">
+        <routeDistribution last="0">
+            <route cost="14.57" probability="1.00000000" edges="423104985"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery96" type="delivery" depart="95.00">
+        <routeDistribution last="0">
+            <route cost="8.48" probability="1.00000000" edges="422621691#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery97" type="delivery" depart="96.00">
+        <routeDistribution last="0">
+            <route cost="4.40" probability="1.00000000" edges="-421737094#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery98" type="delivery" depart="97.00">
+        <routeDistribution last="0">
+            <route cost="0.23" probability="1.00000000" edges="-421253503#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery99" type="delivery" depart="98.00">
+        <routeDistribution last="0">
+            <route cost="5.43" probability="1.00000000" edges="1074129168#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery100" type="delivery" depart="99.00">
+        <routeDistribution last="0">
+            <route cost="2.68" probability="1.00000000" edges="-1075951928#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery101" type="delivery" depart="100.00">
+        <routeDistribution last="0">
+            <route cost="0.47" probability="1.00000000" edges="1049905484#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery102" type="delivery" depart="101.00">
+        <routeDistribution last="0">
+            <route cost="1.65" probability="1.00000000" edges="372578927#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery103" type="delivery" depart="102.00">
+        <routeDistribution last="0">
+            <route cost="5.10" probability="1.00000000" edges="1074140034#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery104" type="delivery" depart="103.00">
+        <routeDistribution last="0">
+            <route cost="0.88" probability="1.00000000" edges="610660574#46"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery105" type="delivery" depart="104.00">
+        <routeDistribution last="0">
+            <route cost="9.76" probability="1.00000000" edges="1094199601#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery106" type="delivery" depart="105.00">
+        <routeDistribution last="0">
+            <route cost="0.65" probability="1.00000000" edges="1071914474"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery107" type="delivery" depart="106.00">
+        <routeDistribution last="0">
+            <route cost="3.83" probability="1.00000000" edges="172384855#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery108" type="delivery" depart="107.00">
+        <routeDistribution last="0">
+            <route cost="10.60" probability="1.00000000" edges="1074378388#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery109" type="delivery" depart="108.00">
+        <routeDistribution last="0">
+            <route cost="2.95" probability="1.00000000" edges="-1075954641#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery110" type="delivery" depart="109.00">
+        <routeDistribution last="0">
+            <route cost="8.92" probability="1.00000000" edges="172586594#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery111" type="delivery" depart="110.00">
+        <routeDistribution last="0">
+            <route cost="2.03" probability="1.00000000" edges="-421729936#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery112" type="delivery" depart="111.00">
+        <routeDistribution last="0">
+            <route cost="12.78" probability="1.00000000" edges="-1067844906"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery113" type="delivery" depart="112.00">
+        <routeDistribution last="0">
+            <route cost="1.08" probability="1.00000000" edges="421800634#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery114" type="delivery" depart="113.00">
+        <routeDistribution last="0">
+            <route cost="15.35" probability="1.00000000" edges="374518182#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery115" type="delivery" depart="114.00">
+        <routeDistribution last="0">
+            <route cost="11.09" probability="1.00000000" edges="172405640"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery116" type="delivery" depart="115.00">
+        <routeDistribution last="0">
+            <route cost="3.94" probability="1.00000000" edges="1069477672#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery117" type="delivery" depart="116.00">
+        <routeDistribution last="0">
+            <route cost="2.51" probability="1.00000000" edges="-1069477638#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery118" type="delivery" depart="117.00">
+        <routeDistribution last="0">
+            <route cost="17.13" probability="1.00000000" edges="-1069188909#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery119" type="delivery" depart="118.00">
+        <routeDistribution last="0">
+            <route cost="1.27" probability="1.00000000" edges="172344581#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery120" type="delivery" depart="119.00">
+        <routeDistribution last="0">
+            <route cost="4.83" probability="1.00000000" edges="776290186#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery121" type="delivery" depart="120.00">
+        <routeDistribution last="0">
+            <route cost="0.43" probability="1.00000000" edges="421730040#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery122" type="delivery" depart="121.00">
+        <routeDistribution last="0">
+            <route cost="0.89" probability="1.00000000" edges="1061072247#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery123" type="delivery" depart="122.00">
+        <routeDistribution last="0">
+            <route cost="24.68" probability="1.00000000" edges="172671788#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery124" type="delivery" depart="123.00">
+        <routeDistribution last="0">
+            <route cost="2.46" probability="1.00000000" edges="-421466353#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery125" type="delivery" depart="124.00">
+        <routeDistribution last="0">
+            <route cost="7.67" probability="1.00000000" edges="1075042279#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery126" type="delivery" depart="125.00">
+        <routeDistribution last="0">
+            <route cost="3.62" probability="1.00000000" edges="423270568#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery127" type="delivery" depart="126.00">
+        <routeDistribution last="0">
+            <route cost="14.76" probability="1.00000000" edges="-1070234686"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery128" type="delivery" depart="127.00">
+        <routeDistribution last="0">
+            <route cost="2.44" probability="1.00000000" edges="-421740787#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery129" type="delivery" depart="128.00">
+        <routeDistribution last="0">
+            <route cost="1.85" probability="1.00000000" edges="-172714200#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery130" type="delivery" depart="129.00">
+        <routeDistribution last="0">
+            <route cost="84.54" probability="1.00000000" edges="421972372"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery131" type="delivery" depart="130.00">
+        <routeDistribution last="0">
+            <route cost="1.03" probability="1.00000000" edges="-191207550#16"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery132" type="delivery" depart="131.00">
+        <routeDistribution last="0">
+            <route cost="1.50" probability="1.00000000" edges="-422133569#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery133" type="delivery" depart="132.00">
+        <routeDistribution last="0">
+            <route cost="9.06" probability="1.00000000" edges="-1075049475#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery134" type="delivery" depart="133.00">
+        <routeDistribution last="0">
+            <route cost="5.80" probability="1.00000000" edges="1067498379#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery135" type="delivery" depart="134.00">
+        <routeDistribution last="0">
+            <route cost="5.57" probability="1.00000000" edges="-143683396#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery136" type="delivery" depart="135.00">
+        <routeDistribution last="0">
+            <route cost="3.50" probability="1.00000000" edges="-1068400937#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery137" type="delivery" depart="136.00">
+        <routeDistribution last="0">
+            <route cost="2.80" probability="1.00000000" edges="172348362#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery138" type="delivery" depart="137.00">
+        <routeDistribution last="0">
+            <route cost="3.18" probability="1.00000000" edges="-425427947#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery139" type="delivery" depart="138.00">
+        <routeDistribution last="0">
+            <route cost="9.67" probability="1.00000000" edges="-1070497276"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery140" type="delivery" depart="139.00">
+        <routeDistribution last="0">
+            <route cost="4.96" probability="1.00000000" edges="213169560"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery141" type="delivery" depart="140.00">
+        <routeDistribution last="0">
+            <route cost="1.24" probability="1.00000000" edges="-422015088#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery142" type="delivery" depart="141.00">
+        <routeDistribution last="0">
+            <route cost="1.87" probability="1.00000000" edges="-421446047#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery143" type="delivery" depart="142.00">
+        <routeDistribution last="0">
+            <route cost="6.13" probability="1.00000000" edges="-1070247724#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery144" type="delivery" depart="143.00">
+        <routeDistribution last="0">
+            <route cost="1.48" probability="1.00000000" edges="421935738#14"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery145" type="delivery" depart="144.00">
+        <routeDistribution last="0">
+            <route cost="6.76" probability="1.00000000" edges="-1073854902#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery146" type="delivery" depart="145.00">
+        <routeDistribution last="0">
+            <route cost="17.31" probability="1.00000000" edges="-1068098979"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery147" type="delivery" depart="146.00">
+        <routeDistribution last="0">
+            <route cost="1.99" probability="1.00000000" edges="-172522904#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery148" type="delivery" depart="147.00">
+        <routeDistribution last="0">
+            <route cost="7.32" probability="1.00000000" edges="-172507642#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery149" type="delivery" depart="148.00">
+        <routeDistribution last="0">
+            <route cost="1.43" probability="1.00000000" edges="172377257#10"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery150" type="delivery" depart="149.00">
+        <routeDistribution last="0">
+            <route cost="43.16" probability="1.00000000" edges="1069506325"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery151" type="delivery" depart="150.00">
+        <routeDistribution last="0">
+            <route cost="0.33" probability="1.00000000" edges="-421738581#10"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery152" type="delivery" depart="151.00">
+        <routeDistribution last="0">
+            <route cost="0.01" probability="1.00000000" edges="-172671877#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery153" type="delivery" depart="152.00">
+        <routeDistribution last="0">
+            <route cost="1.59" probability="1.00000000" edges="-172387764#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery154" type="delivery" depart="153.00">
+        <routeDistribution last="0">
+            <route cost="3.60" probability="1.00000000" edges="-421285553#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery155" type="delivery" depart="154.00">
+        <routeDistribution last="0">
+            <route cost="2.04" probability="1.00000000" edges="1241857715"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery156" type="delivery" depart="155.00">
+        <routeDistribution last="0">
+            <route cost="12.50" probability="1.00000000" edges="-172771600"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery157" type="delivery" depart="156.00">
+        <routeDistribution last="0">
+            <route cost="7.68" probability="1.00000000" edges="421756626#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery158" type="delivery" depart="157.00">
+        <routeDistribution last="0">
+            <route cost="4.98" probability="1.00000000" edges="-400928133#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery159" type="delivery" depart="158.00">
+        <routeDistribution last="0">
+            <route cost="32.19" probability="1.00000000" edges="-421448384#15"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery160" type="delivery" depart="159.00">
+        <routeDistribution last="0">
+            <route cost="8.86" probability="1.00000000" edges="1094199602"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery161" type="delivery" depart="160.00">
+        <routeDistribution last="0">
+            <route cost="1.53" probability="1.00000000" edges="-188616215#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery162" type="delivery" depart="161.00">
+        <routeDistribution last="0">
+            <route cost="35.96" probability="1.00000000" edges="143183252#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery163" type="delivery" depart="162.00">
+        <routeDistribution last="0">
+            <route cost="15.76" probability="1.00000000" edges="-172390022"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery164" type="delivery" depart="163.00">
+        <routeDistribution last="0">
+            <route cost="2.76" probability="1.00000000" edges="-421729915"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery165" type="delivery" depart="164.00">
+        <routeDistribution last="0">
+            <route cost="4.98" probability="1.00000000" edges="-1069241671#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery166" type="delivery" depart="165.00">
+        <routeDistribution last="0">
+            <route cost="3.54" probability="1.00000000" edges="1240074389#4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery167" type="delivery" depart="166.00">
+        <routeDistribution last="0">
+            <route cost="6.61" probability="1.00000000" edges="-1069560043"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery168" type="delivery" depart="167.00">
+        <routeDistribution last="0">
+            <route cost="3.73" probability="1.00000000" edges="-188610264#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery169" type="delivery" depart="168.00">
+        <routeDistribution last="0">
+            <route cost="3.96" probability="1.00000000" edges="-143683397#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery170" type="delivery" depart="169.00">
+        <routeDistribution last="0">
+            <route cost="5.98" probability="1.00000000" edges="421445672#9"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery171" type="delivery" depart="170.00">
+        <routeDistribution last="0">
+            <route cost="11.91" probability="1.00000000" edges="-172314890#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery172" type="delivery" depart="171.00">
+        <routeDistribution last="0">
+            <route cost="0.29" probability="1.00000000" edges="1107738547#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery173" type="delivery" depart="172.00">
+        <routeDistribution last="0">
+            <route cost="18.48" probability="1.00000000" edges="-172512015#6"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery174" type="delivery" depart="173.00">
+        <routeDistribution last="0">
+            <route cost="1.19" probability="1.00000000" edges="1054721698#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery175" type="delivery" depart="174.00">
+        <routeDistribution last="0">
+            <route cost="3.80" probability="1.00000000" edges="423405622#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery176" type="delivery" depart="175.00">
+        <routeDistribution last="0">
+            <route cost="3.13" probability="1.00000000" edges="-172498202#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery177" type="delivery" depart="176.00">
+        <routeDistribution last="0">
+            <route cost="4.98" probability="1.00000000" edges="358617322#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery178" type="delivery" depart="177.00">
+        <routeDistribution last="0">
+            <route cost="1.47" probability="1.00000000" edges="1081153334"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery179" type="delivery" depart="178.00">
+        <routeDistribution last="0">
+            <route cost="1.23" probability="1.00000000" edges="-374518135#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery180" type="delivery" depart="179.00">
+        <routeDistribution last="0">
+            <route cost="2.83" probability="1.00000000" edges="-144134029#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery181" type="delivery" depart="180.00">
+        <routeDistribution last="0">
+            <route cost="8.57" probability="1.00000000" edges="-358617182#24"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery182" type="delivery" depart="181.00">
+        <routeDistribution last="0">
+            <route cost="1.71" probability="1.00000000" edges="421435054#2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery183" type="delivery" depart="182.00">
+        <routeDistribution last="0">
+            <route cost="24.98" probability="1.00000000" edges="-421466340#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery184" type="delivery" depart="183.00">
+        <routeDistribution last="0">
+            <route cost="2.46" probability="1.00000000" edges="1068453479#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery185" type="delivery" depart="184.00">
+        <routeDistribution last="0">
+            <route cost="4.84" probability="1.00000000" edges="421756561#18"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery186" type="delivery" depart="185.00">
+        <routeDistribution last="0">
+            <route cost="0.44" probability="1.00000000" edges="-188605050#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery187" type="delivery" depart="186.00">
+        <routeDistribution last="0">
+            <route cost="4.61" probability="1.00000000" edges="-172656619"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery188" type="delivery" depart="187.00">
+        <routeDistribution last="0">
+            <route cost="2.84" probability="1.00000000" edges="-372578954#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery189" type="delivery" depart="188.00">
+        <routeDistribution last="0">
+            <route cost="0.52" probability="1.00000000" edges="-421726426#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery190" type="delivery" depart="189.00">
+        <routeDistribution last="0">
+            <route cost="7.52" probability="1.00000000" edges="403511257"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery191" type="delivery" depart="190.00">
+        <routeDistribution last="0">
+            <route cost="4.93" probability="1.00000000" edges="213169373"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery192" type="delivery" depart="191.00">
+        <routeDistribution last="0">
+            <route cost="0.41" probability="1.00000000" edges="1072212726#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery193" type="delivery" depart="192.00">
+        <routeDistribution last="0">
+            <route cost="0.60" probability="1.00000000" edges="1075943747#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery194" type="delivery" depart="193.00">
+        <routeDistribution last="0">
+            <route cost="6.17" probability="1.00000000" edges="423618566#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery195" type="delivery" depart="194.00">
+        <routeDistribution last="0">
+            <route cost="2.62" probability="1.00000000" edges="421738206#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery196" type="delivery" depart="195.00">
+        <routeDistribution last="0">
+            <route cost="0.01" probability="1.00000000" edges="-1241855148#7"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery197" type="delivery" depart="196.00">
+        <routeDistribution last="0">
+            <route cost="3.88" probability="1.00000000" edges="-1049236669"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery198" type="delivery" depart="197.00">
+        <routeDistribution last="0">
+            <route cost="0.53" probability="1.00000000" edges="421725188#5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery199" type="delivery" depart="198.00">
+        <routeDistribution last="0">
+            <route cost="2.98" probability="1.00000000" edges="-1068220044#1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="delivery200" type="delivery" depart="199.00">
+        <routeDistribution last="0">
+            <route cost="7.11" probability="1.00000000" edges="442864304#2"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

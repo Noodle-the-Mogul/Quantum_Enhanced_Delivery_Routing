@@ -1,0 +1,140 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 1A0A-D6E4
+D:.
+|   behavior.add.xml
+|   check_route_for_breaks.py
+|   cluster_solver.py
+|   combine_Jsons.py
+|   create_global_route.py
+|   delivery_points.rou.alt.xml
+|   delivery_points.rou.xml
+|   delivery_pois.add.xml
+|   faridabad.net.xml
+|   faridabad.osm
+|   faridabad.rou.alt.xml
+|   faridabad.rou.xml
+|   faridabad.sumocfg
+|   faridabad.trips.xml
+|   fbd.ipynb
+|   fetch_fbd.py
+|   final_connected_route.json
+|   final_global_route.rou.xml
+|   full_global_route.json
+|   generate_global_rou_file.py
+|   generate_intercluster_matrix.py
+|   global_route.rou.xml
+|   inter_cluster_matrix_filtered.json
+|   maps.ipynb
+|   present_del_points.py
+|   QAOA_apply.py
+|   Quantum_time.py
+|   resolver.py
+|   route_builder.py
+|   sim_probe_traffic.py
+|   structure.txt
+|   supercluster_ordering_helper.py
+|   supercluster_solver.py
+|   supercluster_visit_order.json
+|   supercluster_visit_order_expanded.json
+|   vdistrib.add.xml
+|   vehicles.add.xml
+|   
++---cache
+|       cache_cluster_0.json
+|       cache_cluster_1.json
+|       cache_cluster_10.json
+|       cache_cluster_11.json
+|       cache_cluster_12.json
+|       cache_cluster_13.json
+|       cache_cluster_14.json
+|       cache_cluster_15.json
+|       cache_cluster_16.json
+|       cache_cluster_17.json
+|       cache_cluster_18.json
+|       cache_cluster_19.json
+|       cache_cluster_2.json
+|       cache_cluster_3.json
+|       cache_cluster_4.json
+|       cache_cluster_5.json
+|       cache_cluster_6.json
+|       cache_cluster_7.json
+|       cache_cluster_8.json
+|       cache_cluster_9.json
+|       
++---combined_matrix
+|       matrix_cluster_0.json
+|       matrix_cluster_1.json
+|       matrix_cluster_10.json
+|       matrix_cluster_11.json
+|       matrix_cluster_12.json
+|       matrix_cluster_13.json
+|       matrix_cluster_14.json
+|       matrix_cluster_15.json
+|       matrix_cluster_16.json
+|       matrix_cluster_17.json
+|       matrix_cluster_18.json
+|       matrix_cluster_19.json
+|       matrix_cluster_2.json
+|       matrix_cluster_3.json
+|       matrix_cluster_4.json
+|       matrix_cluster_5.json
+|       matrix_cluster_6.json
+|       matrix_cluster_7.json
+|       matrix_cluster_8.json
+|       matrix_cluster_9.json
+|       
++---Delivery
+|       clustered_delivery_points.csv
+|       cluster_delivery_points.py
+|       cluster_to_supercluster.py
+|       delivery_points.csv
+|       delivery_points.rou.alt.xml
+|       delivery_points.rou.xml
+|       delivery_points.trips.xml
+|       delivery_pt_generation.py
+|       
++---Logs
+|       osm_to_xml.txt
+|       Real Time Traffic Probing.txt
+|       xml_to_trips.txt
+|       
++---OR_clusters
+|       route_cluster_0.json
+|       route_cluster_1.json
+|       route_cluster_10.json
+|       route_cluster_11.json
+|       route_cluster_12.json
+|       route_cluster_13.json
+|       route_cluster_14.json
+|       route_cluster_15.json
+|       route_cluster_16.json
+|       route_cluster_17.json
+|       route_cluster_18.json
+|       route_cluster_19.json
+|       route_cluster_2.json
+|       route_cluster_3.json
+|       route_cluster_4.json
+|       route_cluster_5.json
+|       route_cluster_6.json
+|       route_cluster_7.json
+|       route_cluster_8.json
+|       route_cluster_9.json
+|       
++---superclusters
+|       supercluster_0.json
+|       supercluster_1.json
+|       supercluster_2.json
+|       supercluster_3.json
+|       super_cluster_matrix.json
+|       
+\---Test run
+        josm-tested.jar
+        josm.jnlp
+        map
+        sec11.net.xml
+        sec11.rou.alt.xml
+        sec11.rou.xml
+        sec11.sumo.cfg
+        sec11.trips.xml
+        sector11_map.osm
+        
