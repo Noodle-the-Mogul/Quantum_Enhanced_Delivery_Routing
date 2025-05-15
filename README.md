@@ -108,4 +108,4 @@ Technologies Used :
 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-Developed by Aditya Wadhwa.
+Developed by Aditya Wadhwa. (Noodle-the-Mogul)
