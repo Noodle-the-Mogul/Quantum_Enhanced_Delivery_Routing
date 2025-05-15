@@ -1,0 +1,16 @@
+<configuration>
+  <input>
+    <net-file value="faridabad.net.xml"/>
+    <route-files value="faridabad.rou.xml, final_global_route.rou.xml"/>
+    <additional-files value="vehicles.add.xml,behavior.add.xml,delivery_pois.add.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="10000"/>  
+    <termination time="10000"/>
+  </time>
+  <processing>
+    <ignore-route-errors value="true"/>
+    <collision.action value="none"/>  <!-- Allow overlapping vehicles -->
+  </processing>
+</configuration>

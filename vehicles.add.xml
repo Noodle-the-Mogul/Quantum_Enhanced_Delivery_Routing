@@ -1,0 +1,33 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  
+  <!-- Use 'motorcycle' class for bikes with custom parameters -->
+  <vType id="bike" vClass="motorcycle" 
+         length="1.8" minGap="0.3" maxSpeed="60" 
+         accel="3.0" decel="6.0" sigma="0.9"/>
+
+  <!-- Use 'passenger' class for autos with custom shape -->
+  <vType id="auto" vClass="passenger" 
+         length="2.5" minGap="0.4" maxSpeed="40"
+         accel="2.0" decel="4.0" sigma="0.8"
+         guiShape="passenger/sedan" color="1,1,0"/>
+
+  <vType id="delivery" vClass="passenger"
+         length="5.0" minGap="1.5" maxSpeed="25"
+         accel="1.2" decel="4.5" sigma="0.5"
+         color="1,0,0" guiShape="delivery"/>
+
+  <!-- Other vehicle types -->
+  <vType id="car" vClass="passenger" 
+         length="4.0" minGap="0.5" maxSpeed="50"/>
+  
+  <vType id="bus" vClass="bus" 
+         length="10.0" minGap="1.5" maxSpeed="35"/>
+  
+  <vType id="truck" vClass="truck" 
+         length="7.0" minGap="1.8" maxSpeed="30"/>
+  
+  <vType id="delivery_highlight" vClass="passenger" color="0,0,1" length="5.0" minGap="1.5" maxSpeed="25"
+         accel="1.2" decel="4.5" sigma="0.5"
+         guiShape="delivery"/>
+
+</routes>

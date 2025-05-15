@@ -1,0 +1,10 @@
+<routes>
+  <vTypeDistribution id="indian">
+    <vType id="bike" vClass="motorcycle" probability="0.4"/>
+    <vType id="auto" vClass="autorickshaw" probability="0.2"/>
+    <vType id="car" vClass="passenger" probability="0.3"/>
+    <vType id="bus" vClass="bus" probability="0.05"/>
+    <vType id="truck" vClass="truck" probability="0.05"/>
+    <vType id="delivery" vClass="passenger" probability="0.10"/>
+  </vTypeDistribution>
+</routes>

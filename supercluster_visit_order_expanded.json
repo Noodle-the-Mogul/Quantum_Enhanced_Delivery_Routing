@@ -1,0 +1,40 @@
+[
+  {
+    "supercluster": 3,
+    "clusters": [
+      3,
+      4,
+      8
+    ]
+  },
+  {
+    "supercluster": 2,
+    "clusters": [
+      5,
+      7,
+      9,
+      11,
+      16
+    ]
+  },
+  {
+    "supercluster": 0,
+    "clusters": [
+      1,
+      10,
+      12
+    ]
+  },
+  {
+    "supercluster": 1,
+    "clusters": [
+      2,
+      6,
+      13,
+      14,
+      17,
+      18,
+      19
+    ]
+  }
+]
